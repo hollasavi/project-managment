@@ -1,0 +1,29 @@
+/* .container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    overflow: hidden; 
+    height: max-content;
+  }
+  
+  .slider {
+    max-width: 200px;
+    word-wrap: break-word;
+    height: fit-content;
+    font-size: 24px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    padding: 20px;
+    border-radius: 5px;
+    animation: slide 5s linear infinite;
+  }
+  
+  @keyframes slide {
+    0% {
+      transform: translateX(-100%);
+    }
+    100% {
+      transform: translateX(100%);
+    }
+  }
+   */

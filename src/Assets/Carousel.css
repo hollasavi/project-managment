@@ -1,0 +1,32 @@
+.slider-container {
+  width: 90%;
+  max-height: 650px;
+  margin: auto;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+.slider-slide img {
+  width: 100%;
+  max-height: 100%;
+  object-fit: cover; 
+  aspect-ratio: 4/3;
+  border-radius: 10px;
+  position: relative;
+  top: -55px;
+}
+
+.slick-prev,
+.slick-next {
+  z-index: 10;
+  font-size: 2rem;
+  color: #d81111;
+}
+
+.slick-dots li button:before {
+  color: #fa0000; 
+}
+
+.slick-dots li.slick-active button:before {
+  color: #ff0000;
+}
